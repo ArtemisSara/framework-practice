@@ -1,0 +1,5 @@
+1. pull component out into components.js
+2. creat an about.js, pull definition of about-app into it
+3. rename script.js to index.js it should only include definition of app & gators
+4. about.html link to component.js and about .js
+5. index.html link to components.js and index.js

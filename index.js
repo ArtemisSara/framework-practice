@@ -14,17 +14,28 @@ var gators = [
     weight: 712,
     likesIceCream: false,
     imgSource: "http://www.vaguebuttrue.com/images/1449775760-alligatorclimbsfenceWEBSITE.jpg"
-  }
-  
+  }  
 ]
 
+
+Vue.component('app-header', {
+props: ['text'],
+template:'<header><h1><img src="alligator-logo.png" alt="Alligator Logo">{{ text }}</h1></header>
+})
 
 var app = new Vue({
   el: '#app',
   data: {
     message: 'Hello Vue!',
-    alligators: gators
-  
+    alligators: gators 
+}
+                  
+})
+
+var app = new Vue({
+  el: '#about-app',
+  data: {
+    
 }
                   
 })

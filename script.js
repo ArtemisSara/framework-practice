@@ -15,4 +15,16 @@ var gators = [
     likesIceCream: false,
     imgSource: "http://www.vaguebuttrue.com/images/1449775760-alligatorclimbsfenceWEBSITE.jpg"
   }
+  
 ]
+
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!',
+    alligators: gators
+  
+}
+                  
+})
